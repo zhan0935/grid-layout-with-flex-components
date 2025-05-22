@@ -5,23 +5,23 @@ body {
   background-color: #f9f9f9;
 }
 
-.siteheader {
-  margin-bottom: 2rem;
-}
-
-.siteheader h1 {
-  font-size: 2rem;
-}
-
 .emoji {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center; 
   border: 1px solid #222;
   border-radius: 8px;
   padding: 1rem;
   background-color: white;
   min-height: 320px;
+  text-align: center;
+}
+
+.icon {
+  font-size: 4rem;
+  margin-bottom: 1rem; 
+  text-align: center;
 }
 
 .emoji h2 {
@@ -29,13 +29,12 @@ body {
   border-bottom: 2px solid #ccc;
   padding-bottom: 0.5rem;
   font-size: 1.5rem;
-  text-align: center;
 }
 
 .emoji p {
   margin: 1rem 0;
   font-size: 1rem;
-  flex-grow: 1;
+  text-align: left; 
 }
 
 .emoji a {
@@ -47,10 +46,6 @@ body {
   margin-top: auto;
   text-align: center;
   font-weight: bold;
-}
-
-.icon {
-  font-size: 4rem;
-  margin-bottom: 1rem;
-  text-align: center;
+  display: block;
+  width: 100%;
 }
