@@ -22,8 +22,6 @@ body {
 .emoji {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
   border: 1px solid #222;
   border-radius: 8px;
   padding: 1rem;
@@ -33,22 +31,28 @@ body {
 
 .icon {
   font-size: 4rem;
-  margin: 0 auto 0.5rem auto;
   text-align: center;
+  margin-bottom: 0.5rem;
+  order: 0;
 }
 
 .emoji h2 {
-  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
   border-bottom: 2px solid #ccc;
   padding-bottom: 0.5rem;
-  font-size: 1.5rem;
-  text-align: center;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  text-align: left;
+  order: 1;
 }
 
 .emoji p {
-  margin: 1rem 0;
   font-size: 1rem;
   text-align: left;
+  line-height: 1.5;
+  margin: 1rem 0;
+  order: 2;
 }
 
 .emoji a {
@@ -57,9 +61,10 @@ body {
   color: white;
   padding: 1rem;
   border-radius: 8px;
-  margin-top: auto;
   text-align: center;
   font-weight: bold;
   display: block;
   width: 100%;
+  margin-top: auto;
+  order: 3;
 }
